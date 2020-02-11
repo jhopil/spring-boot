@@ -1,0 +1,11 @@
+logging:
+  level:
+    com.hdbsoft.spring: debug
+  file: ./log/netty.log
+
+tcp.port: 9999
+boss.thread.count: 1
+worker.thread.count: 1
+so.keepalive: true
+so.backlog: 100
+

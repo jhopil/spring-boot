@@ -1,0 +1,9 @@
+spring:
+  jpa.hibernate:
+    naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    #ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/world?serverTimezone=Asia/Seoul
+    username: hatvit
+    password: goodsw1!
+    #serverTimezone: Asia/Seoul
