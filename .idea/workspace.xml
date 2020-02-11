@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="test source commit">
+      <change afterPath="$PROJECT_DIR$/console/target/classes/META-INF/console.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/console/MyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/console/MyCmdRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/HelloConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/HelloPrint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/Hi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/target/classes/com/hdbsoft/spring/spring/test/TestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/META-INF/jdbc.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/com/hdbsoft/spring/mysql/City.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/com/hdbsoft/spring/mysql/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/com/hdbsoft/spring/mysql/MysqlApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/classes/com/hdbsoft/spring/mysql/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/jdbc-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/jdbc-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/classes/META-INF/jms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/classes/com/hdbsoft/spring/jms/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/classes/com/hdbsoft/spring/jms/JmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/classes/com/hdbsoft/spring/jms/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/classes/com/hdbsoft/spring/jms/Sender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/jms-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/jms-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/netty.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/scheduling-tasks.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/com/hdbsoft/spring/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/com/hdbsoft/spring/netty/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/com/hdbsoft/spring/netty/ServiceHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/com/hdbsoft/spring/netty/SpringNettyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/classes/netty.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/netty-0.0.1-RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/target/netty-0.0.1-RELEASE.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/nio/socket/UdpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/META-INF/rest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/build/Greeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/build/GreetingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/build/RestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/consume/ConsumerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/consume/Quote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/classes/com/hdbsoft/spring/rest/consume/Value.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/rest-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/target/rest-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/classes/com/hdbsoft/spring/sche/ScheduledTasks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/classes/com/hdbsoft/spring/sche/ScheduledTasksApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/scheduling-tasks-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduling-tasks/target/scheduling-tasks-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/com/hdbsoft/spring/websocket/Greeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/com/hdbsoft/spring/websocket/GreetingContoller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/com/hdbsoft/spring/websocket/HelloMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/com/hdbsoft/spring/websocket/WebSocketApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/com/hdbsoft/spring/websocket/WebSocketConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/static/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/classes/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/websocket-0.0.1-RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/target/websocket-0.0.1-RELEASE.jar.original" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../spring-boot\exportToHTML" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/restful">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jhopil" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/jhopil/spring-boot.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\2.Projects\0.example\2.intelliJ\spring-boot\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X6hNdglf4JWUN7NsuYtCbH3u2z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="D:/3.Utility/program/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/console/src/main/java/com/hdbsoft/spring/console" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.6163896" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\data" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hdbsoft.callback" />
+      <recent name="com.hdbsoft.spring.netty" />
+      <recent name="com.hdbsoft.spring.mq" />
+      <recent name="com.hdbsoft.anno" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdbsoft.nio.socket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\console\src\main\java\com\hdbsoft\spring\console" />
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\pure\src\main\java\com\hdbsoft\annotation\repeatable" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn dependency:tree" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SelectorClient">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.EchoClient" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.EchoServer" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileChannelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.file.FileChannelTest" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.SelectorClient" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.SelectorServer" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SelectorClient" />
+        <item itemvalue="Application.SelectorServer" />
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.FileChannelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="" />
+      <created>1580372412099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580372412099</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test source commit">
+      <created>1581396622577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581396622577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test source commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test source commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="80" width="1032" height="682" key="#Project_Structure" timestamp="1581039204443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="80" width="1032" height="682" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581039204443" />
+    <state x="736" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580718415460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580718415460" />
+    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581042100882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581042100882" />
+    <state x="689" y="235" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1580430788716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="235" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580430788716" />
+    <state x="673" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581394934627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="673" y="247" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581394934627" />
+    <state x="775" y="379" width="435" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580886289250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="379" width="435" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580886289250" />
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580457444898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580457444898" />
+    <state x="1297" y="323" key="#xdebugger.evaluate" timestamp="1581040046936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1297" y="323" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581040046936" />
+    <state x="338" y="119" width="1091" height="808" key="CommitChangelistDialog2" timestamp="1581398765650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="338" y="119" width="1091" height="808" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581398765650" />
+    <state width="418" height="466" key="DebuggerActiveHint" timestamp="1581055112950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="418" height="466" key="DebuggerActiveHint/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581055112950" />
+    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog" timestamp="1581398746120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581398746120" />
+    <state x="824" y="433" width="361" height="173" key="Github.CreateGistDialog" timestamp="1581395816193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="433" width="361" height="173" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581395816193" />
+    <state width="1804" height="237" key="GridCell.Tab.0.bottom" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.0.center" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.0.left" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.0.right" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.1.bottom" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.1.center" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.1.left" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state width="1804" height="237" key="GridCell.Tab.1.right" timestamp="1581064622529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1804" height="237" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581064622529" />
+    <state x="361" y="99" width="1152" height="850" key="SettingsEditor" timestamp="1580435091615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="99" width="1152" height="850" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580435091615" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1581043762395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581043762395" />
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581397158428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581397158428" />
+    <state x="820" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580431197427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="820" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580431197427" />
+    <state x="764" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580693142064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580693142064" />
+    <state x="568" y="256" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580694507602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="256" width="849" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580694507602" />
+    <state x="386" y="155" key="new project wizard" timestamp="1580875604723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="386" y="155" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580875604723" />
+    <state x="1025" y="116" width="672" height="677" key="run.anything.popup" timestamp="1581036714429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1025" y="116" width="672" height="677" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581036714429" />
+    <state x="656" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1580875739936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="231" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580875739936" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/console/src/main/java/com/hdbsoft/spring/test/HelloConfig.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/nio/file/FileChannelTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
