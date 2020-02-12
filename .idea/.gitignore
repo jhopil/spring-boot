@@ -1,2 +1,16 @@
 # Default ignored files
-/workspace.xml
+log/
+
+# target directory
+async/target/
+batch/target/
+console/target/
+jdbc/target/
+jms/target/
+netty/target/
+pure/target/
+rabbitmq/target/
+rest/target/
+scheduling-tasks/target/
+websocket/target/
+

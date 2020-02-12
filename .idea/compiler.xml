@@ -19,12 +19,6 @@
         <module name="async" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="restful" target="1.5" />
-      <module name="restful.main" target="1.8" />
-      <module name="restful.test" target="1.8" />
-      <module name="test" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -36,7 +30,6 @@
       <module name="netty" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
       <module name="rest" options="-parameters" />
-      <module name="restful" options="" />
       <module name="scheduling-tasks" options="-parameters" />
       <module name="websocket" options="-parameters" />
     </option>

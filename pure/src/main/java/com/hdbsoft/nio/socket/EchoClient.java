@@ -1,6 +1,5 @@
 package com.hdbsoft.nio.socket;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.StandardSocketOptions;
 import java.nio.ByteBuffer;
@@ -39,6 +38,7 @@ public class EchoClient {
                 if(channel.isConnected()) {
                     channel.write(helloBuffer);
 
+                    int count = 0;
                     while(channel.read(buffer) != 1) {
                         buffer.flip();
 
@@ -51,20 +51,20 @@ public class EchoClient {
                             buffer.clear();
                         }
 
-                        int rand = new Random().nextInt(100);
+                        int rand = new Random().nextInt(10000);
                         if(rand == 50) {
                             System.out.println("50 was generated!! close the socket channel");
                             break;
                         } else {
-                            randomBuffer = ByteBuffer.wrap("random number => ".concat(String.valueOf(rand)).getBytes());
+                            randomBuffer = ByteBuffer.wrap("random number => ".concat(String.valueOf(rand)).concat(" => count: " + count++).getBytes());
                             channel.write(randomBuffer);
                         }
-                        Thread.sleep(500);
+                        //Thread.sleep(500);
                     }
                 }
             }
 
-        } catch(IOException | InterruptedException e) {
+        } catch(Exception e) {
             e.printStackTrace();
         }
     }

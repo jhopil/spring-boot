@@ -1,0 +1,56 @@
+2020-01-31 11:37:10.096  INFO 16528 --- [main] c.h.s.sche.ScheduledTasksApplication     : Starting ScheduledTasksApplication on DESKTOP-0MB65ON with PID 16528 (D:\2.Projects\0.example\2.intelliJ\spring-boot\scheduling-tasks\target\classes started by jhopil in D:\2.Projects\0.example\2.intelliJ\spring-boot)
+2020-01-31 11:37:10.099 DEBUG 16528 --- [main] c.h.s.sche.ScheduledTasksApplication     : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-01-31 11:37:10.099  INFO 16528 --- [main] c.h.s.sche.ScheduledTasksApplication     : No active profile set, falling back to default profiles: default
+2020-01-31 11:37:10.637  INFO 16528 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-31 11:37:10.665  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:10
+2020-01-31 11:37:10.673  INFO 16528 --- [main] c.h.s.sche.ScheduledTasksApplication     : Started ScheduledTasksApplication in 0.968 seconds (JVM running for 1.495)
+2020-01-31 11:37:15.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:15
+2020-01-31 11:37:20.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:20
+2020-01-31 11:37:25.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:25
+2020-01-31 11:37:30.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:30
+2020-01-31 11:37:35.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:35
+2020-01-31 11:37:40.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:40
+2020-01-31 11:37:45.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:45
+2020-01-31 11:37:50.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:50
+2020-01-31 11:37:55.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:37:55
+2020-01-31 11:38:00.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:00
+2020-01-31 11:38:05.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:05
+2020-01-31 11:38:10.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:10
+2020-01-31 11:38:15.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:15
+2020-01-31 11:38:20.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:20
+2020-01-31 11:38:25.665  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:25
+2020-01-31 11:38:30.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:30
+2020-01-31 11:38:35.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:35
+2020-01-31 11:38:40.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:40
+2020-01-31 11:38:45.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:45
+2020-01-31 11:38:50.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:50
+2020-01-31 11:38:55.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:38:55
+2020-01-31 11:39:00.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:00
+2020-01-31 11:39:05.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:05
+2020-01-31 11:39:10.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:10
+2020-01-31 11:39:15.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:15
+2020-01-31 11:39:20.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:20
+2020-01-31 11:39:25.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:25
+2020-01-31 11:39:30.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:30
+2020-01-31 11:39:35.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:35
+2020-01-31 11:39:40.662  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:40
+2020-01-31 11:39:45.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:45
+2020-01-31 11:39:50.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:50
+2020-01-31 11:39:55.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:39:55
+2020-01-31 11:40:00.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:00
+2020-01-31 11:40:05.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:05
+2020-01-31 11:40:10.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:10
+2020-01-31 11:40:15.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:15
+2020-01-31 11:40:20.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:20
+2020-01-31 11:40:25.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:25
+2020-01-31 11:40:30.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:30
+2020-01-31 11:40:35.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:35
+2020-01-31 11:40:40.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:40
+2020-01-31 11:40:45.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:45
+2020-01-31 11:40:50.664  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:50
+2020-01-31 11:40:55.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:40:55
+2020-01-31 11:41:00.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:41:00
+2020-01-31 11:41:05.663  INFO 16528 --- [scheduling-1] com.hdbsoft.spring.sche.ScheduledTasks   : The time is now 11:41:05
+2020-01-31 11:41:07.403  INFO 16528 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-01-31 11:41:12.826  INFO 17696 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-01-31 11:41:35.236  INFO 17696 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
