@@ -1,8 +1,11 @@
+#log setting
 logging:
   level:
     com.hdbsoft.spring: debug
   file: ./log/netty.log
 
+#netty setting
+tcp.host: 127.0.0.1
 tcp.port: 9999
 boss.thread.count: 1
 worker.thread.count: 1

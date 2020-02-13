@@ -1,6 +1,5 @@
 package com.hdbsoft.spring.netty;
 
-import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
@@ -12,16 +11,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @ChannelHandler.Sharable
-public class ServiceHandler extends ChannelInboundHandlerAdapter {
+public class ServerHandler extends ChannelInboundHandlerAdapter {
 
-    public static final ServiceHandler INSTANCE = new ServiceHandler();
-
-    private Logger logger = LoggerFactory.getLogger(ServiceHandler.class);
+    private Logger logger = LoggerFactory.getLogger(ServerHandler.class);
 
     private final ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
-
-    private ServiceHandler() {
-    }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
@@ -34,6 +28,10 @@ public class ServiceHandler extends ChannelInboundHandlerAdapter {
         logger.debug("{} => message: {} ", this, byteBuf);
 
         ctx.channel().writeAndFlush(Unpooled.wrappedBuffer(((String) msg).getBytes()));
+    }
 
+    @Override
+    public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+        logger.debug("{} channelReadComplete!!", this);
     }
 }

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="">
+    <list default="true" id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="test source commit">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/NettyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/netty.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/netty.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/ServiceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +113,8 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/compiler.xml" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hdbsoft.callback" />
-      <recent name="com.hdbsoft.spring.netty" />
-      <recent name="com.hdbsoft.spring.mq" />
-      <recent name="com.hdbsoft.anno" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\console\src\main\java\com\hdbsoft\spring\console" />
@@ -119,8 +123,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hdbsoft.nio.socket" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\data" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hdbsoft.spring.netty" />
+      <recent name="com.hdbsoft.callback" />
+      <recent name="com.hdbsoft.spring.mq" />
+      <recent name="com.hdbsoft.anno" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -128,13 +135,26 @@
       <command value="mvn dependency:tree" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AsyncClient">
+  <component name="RunManager" selected="Application.SpringNettyApplication">
     <configuration name="AsyncClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.AsyncClient" />
       <module name="pure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsyncFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.file.AsyncFileTest" />
+      <module name="pure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdbsoft.nio.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,25 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.EchoClient" />
-      <module name="pure" />
+    <configuration name="SpringNettyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.spring.netty.SpringNettyApplication" />
+      <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hdbsoft.nio.socket.EchoServer" />
-      <module name="pure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hdbsoft.nio.socket.*" />
+          <option name="PATTERN" value="com.hdbsoft.spring.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringNettyApplication" />
+        <item itemvalue="Application.AsyncFileTest" />
         <item itemvalue="Application.AsyncClient" />
         <item itemvalue="Application.AsyncServer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581494162535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test source commit">
+      <created>1581496433568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581496433568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -304,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580718415460" />
-    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581492383741">
+    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581557162087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581492383741" />
+    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581557162087" />
     <state x="689" y="235" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1580430788716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,18 +342,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1297" y="323" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581040046936" />
-    <state x="338" y="119" width="1091" height="808" key="CommitChangelistDialog2" timestamp="1581494161619">
+    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2" timestamp="1581582781427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="338" y="119" width="1091" height="808" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581494161619" />
+    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582781427" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1581481273126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="437" height="466" key="DebuggerActiveHint/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581481273126" />
-    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog" timestamp="1581488425356">
+    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog" timestamp="1581496445186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581488425356" />
+    <state x="161" y="100" width="1664" height="846" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496445186" />
     <state x="773" y="279" key="FileChooserDialogImpl" timestamp="1581488371986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -348,38 +362,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="433" width="361" height="173" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581395816193" />
-    <state width="1804" height="280" key="GridCell.Tab.0.bottom" timestamp="1581496324844">
+    <state width="1804" height="277" key="GridCell.Tab.0.bottom" timestamp="1581582659319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="280" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496324844" />
-    <state width="1804" height="280" key="GridCell.Tab.0.center" timestamp="1581496324844">
+    <state width="1804" height="277" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659319" />
+    <state width="1804" height="277" key="GridCell.Tab.0.center" timestamp="1581582659319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="280" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496324844" />
-    <state width="1804" height="280" key="GridCell.Tab.0.left" timestamp="1581496324843">
+    <state width="1804" height="277" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659319" />
+    <state width="1804" height="277" key="GridCell.Tab.0.left" timestamp="1581582659319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="280" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496324843" />
-    <state width="1804" height="280" key="GridCell.Tab.0.right" timestamp="1581496324844">
+    <state width="1804" height="277" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659319" />
+    <state width="1804" height="277" key="GridCell.Tab.0.right" timestamp="1581582659319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="280" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496324844" />
-    <state width="1804" height="262" key="GridCell.Tab.1.bottom" timestamp="1581493870450">
+    <state width="1804" height="277" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659319" />
+    <state width="1804" height="259" key="GridCell.Tab.1.bottom" timestamp="1581582659316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="262" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581493870450" />
-    <state width="1804" height="262" key="GridCell.Tab.1.center" timestamp="1581493870450">
+    <state width="1804" height="259" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
+    <state width="1804" height="259" key="GridCell.Tab.1.center" timestamp="1581582659316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="262" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581493870450" />
-    <state width="1804" height="262" key="GridCell.Tab.1.left" timestamp="1581493870450">
+    <state width="1804" height="259" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
+    <state width="1804" height="259" key="GridCell.Tab.1.left" timestamp="1581582659316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="262" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581493870450" />
-    <state width="1804" height="262" key="GridCell.Tab.1.right" timestamp="1581493870450">
+    <state width="1804" height="259" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
+    <state width="1804" height="259" key="GridCell.Tab.1.right" timestamp="1581582659316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="262" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581493870450" />
+    <state width="1804" height="259" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
     <state x="361" y="99" width="1152" height="850" key="SettingsEditor" timestamp="1581496305206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,10 +402,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581043762395" />
-    <state x="585" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581494188783">
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581496446052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581494188783" />
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581496446052" />
     <state x="820" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580431197427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -437,6 +451,16 @@
           <url>file://$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/nio/file/FileChannelTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

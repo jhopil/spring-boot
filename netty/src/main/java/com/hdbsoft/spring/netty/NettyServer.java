@@ -2,7 +2,6 @@ package com.hdbsoft.spring.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -12,20 +11,17 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
-import io.netty.handler.codec.Delimiters;
 import io.netty.handler.codec.string.StringDecoder;
-import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.convert.Delimiter;
 import org.springframework.stereotype.Component;
 
 @Component
 //@PropertySource("classpath:/netty.yml")
-public class NettyServer {
+public class NettyServer extends Thread {
     private Logger logger = LoggerFactory.getLogger(NettyServer.class);
 
     @Value("${tcp.port}")
@@ -37,7 +33,8 @@ public class NettyServer {
     @Value("${worker.thread.count}")
     private int workerCount;
 
-    public void start() {
+    @Override
+    public void run() {
         logger.info("Netty server is starting...");
         logger.info(String.format("{tcp.port=%s, boss.thread.count=%s, worker.thread.count=%s}", port, bossCount, workerCount));
 
@@ -62,9 +59,7 @@ public class NettyServer {
                                 //twice newline
                                 new ByteBuf[]{Unpooled.wrappedBuffer(new byte[]{13, 10, 13, 10}), Unpooled.wrappedBuffer(new byte[]{10, 10})}));
                         pipeline.addLast(new StringDecoder());
-                        //pipeline.addLast(new StringEncoder());
-
-                        pipeline.addLast(ServiceHandler.INSTANCE);
+                        pipeline.addLast(new ServerHandler());
                   }
               });
 
