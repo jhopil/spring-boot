@@ -34,4 +34,10 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         logger.debug("{} channelReadComplete!!", this);
     }
+
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
+        logger.warn(cause.toString());
+        ctx.close();
+    }
 }
