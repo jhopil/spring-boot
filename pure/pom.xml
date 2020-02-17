@@ -10,7 +10,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.hdbsoft.spring</groupId>
+    <groupId>com.hdbsoft.pure</groupId>
     <artifactId>pure</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
