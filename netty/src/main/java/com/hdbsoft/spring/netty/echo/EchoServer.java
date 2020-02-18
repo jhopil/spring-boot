@@ -1,5 +1,6 @@
-package com.hdbsoft.spring.netty;
+package com.hdbsoft.spring.netty.echo;
 
+import com.hdbsoft.spring.netty.config.ConfigData;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -20,9 +21,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-//@PropertySource("classpath:/netty.yml")
-public class NettyServer extends Thread {
-    private Logger logger = LoggerFactory.getLogger(NettyServer.class);
+public class EchoServer extends Thread {
+    private Logger logger = LoggerFactory.getLogger(EchoServer.class);
 
     @Value("${tcp.port}")
     private int port;
@@ -57,9 +57,10 @@ public class NettyServer extends Thread {
 
                         pipeline.addLast(new DelimiterBasedFrameDecoder(Integer.MAX_VALUE,
                                 //twice newline
-                                new ByteBuf[]{Unpooled.wrappedBuffer(new byte[]{13, 10, 13, 10}), Unpooled.wrappedBuffer(new byte[]{10, 10})}));
+                                new ByteBuf[]{Unpooled.wrappedBuffer(ConfigData.DELIMETERS[0].getBytes()),
+                                              Unpooled.wrappedBuffer(ConfigData.DELIMETERS[1].getBytes())}));
                         pipeline.addLast(new StringDecoder());
-                        pipeline.addLast(new ServerHandler());
+                        pipeline.addLast(new EchoServerHandler());
                   }
               });
 

@@ -1,4 +1,4 @@
-package com.hdbsoft.spring.netty;
+package com.hdbsoft.spring.netty.echo;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class NettyClient extends Thread {
-    private Logger logger = LoggerFactory.getLogger(NettyClient.class);
+public class EchoClient extends Thread {
+    private Logger logger = LoggerFactory.getLogger(EchoClient.class);
 
     @Value("${tcp.host}")
     private String host;
@@ -34,7 +34,7 @@ public class NettyClient extends Thread {
                     @Override
                     protected void initChannel(SocketChannel sc) throws Exception {
                         ChannelPipeline cp = sc.pipeline();
-                        cp.addLast(new ClientHandler());
+                        cp.addLast(new EchoClientHandler());
                     }
                 });
 

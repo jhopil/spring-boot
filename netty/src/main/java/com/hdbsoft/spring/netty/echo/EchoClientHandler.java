@@ -1,5 +1,6 @@
-package com.hdbsoft.spring.netty;
+package com.hdbsoft.spring.netty.echo;
 
+import com.hdbsoft.spring.netty.config.ConfigData;
 import io.netty.buffer.*;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -10,11 +11,11 @@ import java.nio.charset.Charset;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class ClientHandler extends ChannelInboundHandlerAdapter {
-    private Logger logger = LoggerFactory.getLogger(ClientHandler.class);
+public class EchoClientHandler extends ChannelInboundHandlerAdapter {
+    private Logger logger = LoggerFactory.getLogger(EchoClientHandler.class);
 
     private ByteBuf getCurrentDate() {
-        return Unpooled.wrappedBuffer(new Date().toString().concat("\n\n").getBytes());
+        return Unpooled.wrappedBuffer(new Date().toString().concat(ConfigData.DELIMETERS[0]).getBytes());
     }
 
     @Override
@@ -35,7 +36,8 @@ public class ClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
-        //try { TimeUnit.SECONDS.sleep(1); } catch(InterruptedException e) {}
+        try { TimeUnit.SECONDS.sleep(1); } catch(InterruptedException e) {}
+
         ctx.writeAndFlush(getCurrentDate());
     }
 

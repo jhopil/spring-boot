@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="">
+    <list default="true" id="6e95363c-05ab-4694-a541-e6e746643b5f" name="Default Changelist" comment="test source commit">
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/config/ConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/DirectClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/ProxyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/RelayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/SocksServerConnectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/SocksServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/SocksServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/proxy/SocksServerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/scheduling-tasks.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/echo/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/echo/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/echo/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/echo/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/resources/netty.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +107,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -99,7 +117,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="D:/3.Utility/program/android" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/compiler.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pure" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.6163896" />
@@ -107,21 +125,23 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/.idea/compiler.xml" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hdbsoft.spring.netty" />
-      <recent name="com.hdbsoft.callback" />
-      <recent name="com.hdbsoft.spring.mq" />
-      <recent name="com.hdbsoft.anno" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\pure" />
       <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\console\src\main\java\com\hdbsoft\spring\console" />
       <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\pure\src\main\java\com\hdbsoft\annotation\repeatable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hdbsoft.nio.socket" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\2.Projects\0.example\2.intelliJ\spring-boot\data" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hdbsoft.spring.netty.proxy" />
+      <recent name="com.hdbsoft.spring.netty" />
+      <recent name="com.hdbsoft.callback" />
+      <recent name="com.hdbsoft.spring.mq" />
+      <recent name="com.hdbsoft.anno" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -174,7 +194,7 @@
       <module name="netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hdbsoft.spring.netty.*" />
+          <option name="PATTERN" value="com.hdbsoft.spring.netty.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581903588181</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test source commit">
+      <created>1581903633846</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581903633846</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test source commit">
+      <created>1581904766020</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581904766020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -333,18 +367,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="test source commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="599" y="80" width="1032" height="682" key="#Project_Structure" timestamp="1581902889216">
+    <state x="585" y="179" key="#Notifications" timestamp="1581983340513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="599" y="80" width="1032" height="682" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581902889216" />
+    <state x="585" y="179" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581983340513" />
+    <state x="599" y="80" width="1032" height="682" key="#Project_Structure" timestamp="1582007597159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="599" y="80" width="1032" height="682" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582007597159" />
     <state x="736" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580718415460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="327" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580718415460" />
-    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581557162087">
+    <state x="798" y="230" width="515" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1582015324774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="798" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581557162087" />
+    <state x="798" y="230" width="515" height="580" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015324774" />
     <state x="689" y="235" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1580430788716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -357,18 +395,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="379" width="435" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580886289250" />
-    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580457444898">
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582010138836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580457444898" />
+    <state x="692" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582010138836" />
     <state x="1297" y="323" key="#xdebugger.evaluate" timestamp="1581040046936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1297" y="323" key="#xdebugger.evaluate/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581040046936" />
-    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2" timestamp="1581903587624">
+    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2" timestamp="1581914836223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581903587624" />
+    <state x="310" y="5" width="1191" height="967" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581914836223" />
     <state width="437" height="466" key="DebuggerActiveHint" timestamp="1581481273126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -385,38 +423,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="433" width="361" height="173" key="Github.CreateGistDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581395816193" />
-    <state width="1804" height="277" key="GridCell.Tab.0.bottom" timestamp="1581903481629">
+    <state width="1804" height="277" key="GridCell.Tab.0.bottom" timestamp="1582015394020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="277" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581903481629" />
-    <state width="1804" height="277" key="GridCell.Tab.0.center" timestamp="1581903481627">
+    <state width="1804" height="277" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015394020" />
+    <state width="1804" height="277" key="GridCell.Tab.0.center" timestamp="1582015394020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="277" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581903481627" />
-    <state width="1804" height="277" key="GridCell.Tab.0.left" timestamp="1581903481627">
+    <state width="1804" height="277" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015394020" />
+    <state width="1804" height="277" key="GridCell.Tab.0.left" timestamp="1582015394020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="277" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581903481627" />
-    <state width="1804" height="277" key="GridCell.Tab.0.right" timestamp="1581903481629">
+    <state width="1804" height="277" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015394020" />
+    <state width="1804" height="277" key="GridCell.Tab.0.right" timestamp="1582015394020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="277" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581903481629" />
-    <state width="1804" height="259" key="GridCell.Tab.1.bottom" timestamp="1581582659316">
+    <state width="1804" height="277" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015394020" />
+    <state width="1804" height="259" key="GridCell.Tab.1.bottom" timestamp="1582007362039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="259" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
-    <state width="1804" height="259" key="GridCell.Tab.1.center" timestamp="1581582659316">
+    <state width="1804" height="259" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582007362039" />
+    <state width="1804" height="259" key="GridCell.Tab.1.center" timestamp="1582007362039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="259" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
-    <state width="1804" height="259" key="GridCell.Tab.1.left" timestamp="1581582659316">
+    <state width="1804" height="259" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582007362039" />
+    <state width="1804" height="259" key="GridCell.Tab.1.left" timestamp="1582007362039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="259" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
-    <state width="1804" height="259" key="GridCell.Tab.1.right" timestamp="1581582659316">
+    <state width="1804" height="259" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582007362039" />
+    <state width="1804" height="259" key="GridCell.Tab.1.right" timestamp="1582007362039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1804" height="259" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581582659316" />
+    <state width="1804" height="259" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582007362039" />
     <state x="361" y="99" width="1152" height="850" key="SettingsEditor" timestamp="1581902325522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -425,18 +463,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581043762395" />
-    <state x="585" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581900715922">
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2" timestamp="1581904773202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581900715922" />
+    <state x="585" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581904773202" />
     <state x="820" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580431197427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580431197427" />
-    <state x="797" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581490340034">
+    <state x="797" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582015016289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="797" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1581490340034" />
+    <state x="797" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582015016289" />
     <state x="764" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581475804360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -474,16 +512,6 @@
           <url>file://$PROJECT_DIR$/pure/src/main/java/com/hdbsoft/nio/file/FileChannelTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/netty/src/main/java/com/hdbsoft/spring/netty/SpringNettyApplication.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

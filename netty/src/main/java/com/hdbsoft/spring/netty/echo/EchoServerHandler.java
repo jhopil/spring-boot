@@ -1,4 +1,4 @@
-package com.hdbsoft.spring.netty;
+package com.hdbsoft.spring.netty.echo;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler;
@@ -11,9 +11,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @ChannelHandler.Sharable
-public class ServerHandler extends ChannelInboundHandlerAdapter {
+public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
-    private Logger logger = LoggerFactory.getLogger(ServerHandler.class);
+    private Logger logger = LoggerFactory.getLogger(EchoServerHandler.class);
 
     private final ChannelGroup channels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
@@ -24,10 +24,10 @@ public class ServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        String byteBuf = (String)msg;
-        logger.debug("{} => message: {} ", this, byteBuf);
+        String strMsg = (String)msg;
+        logger.debug("{} => message: {} ", this, strMsg);
 
-        ctx.channel().writeAndFlush(Unpooled.wrappedBuffer(((String) msg).getBytes()));
+        ctx.channel().writeAndFlush(Unpooled.wrappedBuffer(strMsg.getBytes()));
     }
 
     @Override

@@ -8,15 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="batch" />
         <module name="pure" />
+        <module name="async" />
         <module name="websocket" />
         <module name="jms" />
         <module name="console" />
-        <module name="scheduling-tasks" />
         <module name="rabbitmq" />
         <module name="rest" />
         <module name="netty" />
         <module name="jdbc" />
-        <module name="async" />
+        <module name="scheduling-tasks" />
       </profile>
     </annotationProcessing>
   </component>
