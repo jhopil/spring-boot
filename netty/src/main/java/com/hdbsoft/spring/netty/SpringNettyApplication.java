@@ -2,6 +2,7 @@ package com.hdbsoft.spring.netty;
 
 import com.hdbsoft.spring.netty.echo.EchoClient;
 import com.hdbsoft.spring.netty.echo.EchoServer;
+import com.hdbsoft.spring.netty.proxy.ProxyServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -28,7 +29,12 @@ public class SpringNettyApplication {
                     echoClient.start();
                 }
             case "proxy":
-
+                if(strMode.equals("server")) {
+                    ProxyServer proxyServer = context.getBean(ProxyServer.class);
+                    proxyServer.start();
+                } else if(strMode.equals("client")) {
+                    //
+                }
                 break;
         }
     }
