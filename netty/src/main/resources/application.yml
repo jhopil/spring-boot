@@ -5,11 +5,32 @@ logging:
   file: ./log/netty.log
 
 #netty setting
-tcp.host: 127.0.0.1
-tcp.port: 9999
 boss.thread.count: 1
 worker.thread.count: 1
 so.keepalive: true
 so.backlog: 100
 
-#gateway
+#echo
+echo:
+  host: 127.0.0.1
+  port: 13001
+
+#hexproxy
+hexproxy:
+  host: 127.0.0.1
+  port: 13002
+
+#proxy
+proxy:
+  host: 127.0.0.1
+  port: 13003
+
+#telnet
+telnet:
+  host: 127.0.0.1
+  port: 13004
+  #is ssl support
+  ssl: false
+
+
+

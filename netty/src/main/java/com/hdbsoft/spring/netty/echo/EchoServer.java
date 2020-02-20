@@ -1,6 +1,6 @@
 package com.hdbsoft.spring.netty.echo;
 
-import com.hdbsoft.spring.netty.config.ConfigData;
+import com.hdbsoft.spring.netty.util.StringUtils;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
 public class EchoServer extends Thread {
     private Logger logger = LoggerFactory.getLogger(EchoServer.class);
 
-    @Value("${tcp.port}")
+    @Value("${echo.port}")
     private int port;
 
     @Value("${boss.thread.count}")
@@ -57,8 +57,8 @@ public class EchoServer extends Thread {
 
                         pipeline.addLast(new DelimiterBasedFrameDecoder(Integer.MAX_VALUE,
                                 //twice newline
-                                new ByteBuf[]{Unpooled.wrappedBuffer(ConfigData.DELIMETERS[0].getBytes()),
-                                              Unpooled.wrappedBuffer(ConfigData.DELIMETERS[1].getBytes())}));
+                                new ByteBuf[]{Unpooled.wrappedBuffer(StringUtils.DELIMITERS[0].getBytes()),
+                                              Unpooled.wrappedBuffer(StringUtils.DELIMITERS[1].getBytes())}));
                         pipeline.addLast(new StringDecoder());
                         pipeline.addLast(new EchoServerHandler());
                   }

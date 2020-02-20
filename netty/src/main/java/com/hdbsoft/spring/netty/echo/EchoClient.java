@@ -14,10 +14,10 @@ import org.springframework.stereotype.Component;
 public class EchoClient extends Thread {
     private Logger logger = LoggerFactory.getLogger(EchoClient.class);
 
-    @Value("${tcp.host}")
+    @Value("${echo.host}")
     private String host;
 
-    @Value("${tcp.port}")
+    @Value("${echo.port}")
     private int port;
 
     @Override

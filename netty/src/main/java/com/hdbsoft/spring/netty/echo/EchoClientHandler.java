@@ -1,6 +1,6 @@
 package com.hdbsoft.spring.netty.echo;
 
-import com.hdbsoft.spring.netty.config.ConfigData;
+import com.hdbsoft.spring.netty.util.StringUtils;
 import io.netty.buffer.*;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -15,7 +15,7 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter {
     private Logger logger = LoggerFactory.getLogger(EchoClientHandler.class);
 
     private ByteBuf getCurrentDate() {
-        return Unpooled.wrappedBuffer(new Date().toString().concat(ConfigData.DELIMETERS[0]).getBytes());
+        return Unpooled.wrappedBuffer(new Date().toString().concat(StringUtils.DELIMITERS[0]).getBytes());
     }
 
     @Override
